@@ -93,10 +93,7 @@ python main.py --school suzhou --output both
 
 苏州大学本科招生网的录取分数查询页直接展示数据表格，爬虫通过 `score_entry_url` 访问目标页面，使用 CSS 选择器 `#ctl00_ContentPlaceHolder1_GridView1` 定位表格并解析。
 
-> **截图占位**：请将苏州大学录取分数查询页面截图放入 `docs/images/suzhou_page.png`，然后取消下方注释：
-> ```markdown
-> ![苏州大学录取分数查询页](docs/images/suzhou_page.png)
-> ```
+![苏州大学录取分数查询页](docs/images/suzhou_page.png)
 
 ### 配置示例
 
@@ -122,10 +119,7 @@ python main.py --school suzhou --output both
 江苏,人工智能,24专业组(物理+化学),642.0,637.0,638.454
 ```
 
-> **截图占位**：请将 suzhou_scores.csv 文件内容截图放入 `docs/images/suzhou_csv.png`，然后取消下方注释：
-> ```markdown
-> ![苏州大学爬取结果](docs/images/suzhou_csv.png)
-> ```
+![苏州大学爬取结果](docs/images/suzhou_csv.png)
 
 苏州大学本次爬取共采集 **125 条** 专业录取记录，覆盖历史类、物理类、体育类、音乐类、美术类等多个科类批次。
 
